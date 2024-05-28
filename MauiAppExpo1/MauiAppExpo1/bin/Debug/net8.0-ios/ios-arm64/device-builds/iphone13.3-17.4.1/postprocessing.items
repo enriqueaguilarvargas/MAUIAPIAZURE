@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="MauiAppExpo1.app/MauiAppExpo1">
+      <BCSymbolMapName>MauiAppExpo1.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>false</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>false</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>MauiAppExpo1.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>\Users\enrique\Library\Caches\Xamarin\mtbs\builds\MauiAppExpo1\ec7f410d857d8640e312dccb903f4412ebd5dd23a972c4c6b068a2db5a55aaa7\obj\Debug\net8.0-ios\ios-arm64\device-builds\iphone13.3-17.4.1\mtouch-symbols.list</SymbolFile>
+      <DSymName>MauiAppExpo1.app.dSYM</DSymName>
+      <SourceProjectPath>C:\Users\Enrique\source\repos\MauiAppExpo1\MauiAppExpo1</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

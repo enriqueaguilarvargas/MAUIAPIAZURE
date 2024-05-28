@@ -1,0 +1,17 @@
+D:\Proyectos Visual Studio\APIExpo\APIExpo\obj\Release\net8.0\PubTmp\Out\APIExpo.exe
+D:\Proyectos Visual Studio\APIExpo\APIExpo\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\Proyectos Visual Studio\APIExpo\APIExpo\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\Proyectos Visual Studio\APIExpo\APIExpo\obj\Release\net8.0\PubTmp\Out\APIExpo.dll
+D:\Proyectos Visual Studio\APIExpo\APIExpo\obj\Release\net8.0\PubTmp\Out\APIExpo.deps.json
+D:\Proyectos Visual Studio\APIExpo\APIExpo\obj\Release\net8.0\PubTmp\Out\APIExpo.runtimeconfig.json
+D:\Proyectos Visual Studio\APIExpo\APIExpo\obj\Release\net8.0\PubTmp\Out\APIExpo.pdb
+D:\Proyectos Visual Studio\APIExpo\APIExpo\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\Proyectos Visual Studio\APIExpo\APIExpo\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\Proyectos Visual Studio\APIExpo\APIExpo\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Proyectos Visual Studio\APIExpo\APIExpo\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Proyectos Visual Studio\APIExpo\APIExpo\obj\Release\net8.0\PubTmp\Out\System.Data.SqlClient.dll
+D:\Proyectos Visual Studio\APIExpo\APIExpo\obj\Release\net8.0\PubTmp\Out\runtimes\win-arm64\native\sni.dll
+D:\Proyectos Visual Studio\APIExpo\APIExpo\obj\Release\net8.0\PubTmp\Out\runtimes\win-x64\native\sni.dll
+D:\Proyectos Visual Studio\APIExpo\APIExpo\obj\Release\net8.0\PubTmp\Out\runtimes\win-x86\native\sni.dll
+D:\Proyectos Visual Studio\APIExpo\APIExpo\obj\Release\net8.0\PubTmp\Out\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Proyectos Visual Studio\APIExpo\APIExpo\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

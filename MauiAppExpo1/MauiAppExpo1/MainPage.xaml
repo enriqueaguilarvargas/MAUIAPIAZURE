@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Microsoft.Maui.Controls.Maps;assembly=Microsoft.Maui.Controls.Maps"
+             xmlns:local="clr-namespace:MauiAppExpo1.ViewModels"
+             x:Class="MauiAppExpo1.MainPage"
+             Title="">
+
+    <ContentPage.BindingContext>
+        <local:Modelo/>
+    </ContentPage.BindingContext>
+
+    <Grid>
+        <!-- ImageView as background -->
+        <Image Source="{Binding ImagenFondo}" Aspect="AspectFill" Grid.RowSpan="4"/>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30*"/>
+            <!-- 30% of the screen height -->
+        </Grid.RowDefinitions>
+
+        <!-- TextBox and Button centered -->
+        <StackLayout Grid.Row="0" HorizontalOptions="Center">
+            <StackLayout Orientation="Horizontal" Padding="10" HorizontalOptions="Center">
+                <Entry x:Name="entryID" Placeholder="ID" WidthRequest="200" TextColor="Gray" Text="{Binding ID}"/>
+                <Button Text="Consultar" Clicked="OnConsultarClicked"/>
+            </StackLayout>
+
+            <!-- Image with border -->
+            <Frame BorderColor="White" CornerRadius="10" Padding="5" WidthRequest="210" HeightRequest="210" HorizontalOptions="Center">
+                <Image Source="{Binding Imagen}" WidthRequest="200" HeightRequest="200" Aspect="AspectFill"/>
+            </Frame>
+        </StackLayout>
+
+        <!-- Grid for labels and background blur -->
+        <Grid Grid.Row="1" Padding="10">
+            <!-- Background blur effect for labels -->
+            <BoxView Color="White" Opacity="0.4" CornerRadius="10" Grid.RowSpan="2"/>
+
+            <!-- Labels with watermark style in a Frame for rounded corners -->
+            <Frame BackgroundColor="White" Opacity="0.7" CornerRadius="10" Padding="10" HorizontalOptions="Center">
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+                    <Label Text="{Binding Nombre}" 
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           TextColor="Black"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap"/>
+                    <Label Text="{Binding Apellido}" 
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           TextColor="Black"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap"/>
+                    <Label Text="{Binding Conferencia}" 
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           TextColor="Black"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap"/>
+                    <Label Text="{Binding Fecha}" 
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           TextColor="Black"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap"/>
+                    <Label Text="{Binding Pais}" 
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           TextColor="Black"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap"/>
+                    <Label Text="{Binding Semblanza}" 
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           TextColor="Black"
+                           HorizontalTextAlignment="Center"
+                           LineBreakMode="WordWrap"/>
+                </StackLayout>
+            </Frame>
+        </Grid>
+
+        <!-- Map at the bottom -->
+        <maps:Map x:Name="map" Grid.Row="3" VerticalOptions="FillAndExpand" Margin="10"/>
+    </Grid>
+</ContentPage>
